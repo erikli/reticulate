@@ -1191,8 +1191,8 @@ py_flush_output <- function() {
     return()
 
   sys <- import("sys", convert = TRUE)
-  sys$stdout$flush()
-  sys$stderr$flush()
+  #sys$stdout$flush()
+  #sys$stderr$flush()
 
 }
 
